@@ -36,11 +36,11 @@ from sklearn.ensemble import ExtraTreesClassifier
 
 
 
-wholesaleCustomer_data = pd.read_csv("Wholesale customers data.csv")
+Deadliestearthquakesbyyearupdated_data = pd.read_csv("Deadliest_earthquakes_by_yearupdated (Real Ver).csv")
 
 # Attribute to be predicted
 predict = "MMI"
-Deadliestearthquakesbyyearupdated_data = de.copy()
+
 le = preprocessing.LabelEncoder()
 Event = le.fit_transform(list(Deadliestearthquakesbyyearupdated_data["Event"]))
 Magnitude = le.fit_transform(list(Deadliestearthquakesbyyearupdated_data["Magnitude"]))
